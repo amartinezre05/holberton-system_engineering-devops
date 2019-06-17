@@ -1,0 +1,14 @@
+total 13
+drwxrwxrwx 1 vagrant vagrant 4096 Jun 17  2019 .
+drwxrwxrwx 1 vagrant vagrant 4096 Jun 17 16:24 ..
+-rwxrwxrwx 1 vagrant vagrant   32 Jun 17 16:24 0-hello_world
+-rwxrwxrwx 1 vagrant vagrant   28 Jun 17 16:24 1-confused_smiley
+-rwxrwxrwx 1 vagrant vagrant   28 Jun 17 16:24 2-hellofile
+-rwxrwxrwx 1 vagrant vagrant   39 Jun 17 16:24 3-twofiles
+-rwxrwxrwx 1 vagrant vagrant   29 Jun 17 16:24 4-lastlines
+-rwxrwxrwx 1 vagrant vagrant   29 Jun 17 16:24 5-firstlines
+-rwxrwxrwx 1 vagrant vagrant   37 Jun 17 16:24 6-third_line
+-rwxrwxrwx 1 vagrant vagrant   92 Jun 17  2019 7-file
+-rwxrwxrwx 1 vagrant vagrant   36 Jun 17  2019 8-cwd_state
+-rwxrwxrwx 1 vagrant vagrant    0 Jun 17  2019 ls_cwd_content
+-rwxrwxrwx 1 vagrant vagrant   36 Jun 17 16:24 README.md
