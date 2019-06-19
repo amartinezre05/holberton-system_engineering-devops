@@ -1,2 +1,3 @@
 #!/bin/bash
-export NUM.$#0
+export NUM=$NUM.\00
+
