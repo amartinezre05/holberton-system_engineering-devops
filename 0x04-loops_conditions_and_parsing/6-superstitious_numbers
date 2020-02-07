@@ -2,10 +2,10 @@
 # This script is displaying "Holberton School" 10 times
 n=0
 while (( n++ < 20 )); do
+	echo $n
 	case $n in
 		4) echo "bad luck from China";;
 		9) echo "bad luck from Japan";;
 		17) echo "bad luck from Italy";;
-		*) echo $n;;
 	esac
 done
