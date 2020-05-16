@@ -19,7 +19,7 @@ if __name__ == "__main__":
     for t in empl_tasks:
         if t.get('completed'):
             completed.append(t)
-    print("Employee {} is done with tasks ({}/{}):".
+    print("Employee {} is done with tasks({}/{}):".
           format(name, len(completed), len(empl_tasks)))
     for t in completed:
         print("\t {}".format(t.get('title')))
