@@ -12,7 +12,7 @@ if __name__ == "__main__":
     empl_tasks = requests.get(
         url + "todos?userId={}".format(argv[1])).json()
 
-    name = empl_get.get('name')
+    name = empl_get.get('username')
     with open("{}.csv".format(argv[1]), 'w') as f:
         wr = csv.writer(f, quoting=csv.QUOTE_ALL)
         for t in empl_tasks:
