@@ -14,15 +14,15 @@ if __name__ == "__main__":
     data = {}
     with open("todo_all_employees.json", 'w') as f:
         for r in range(0, len(users)):
-            empl = get(empl_get + "{}".format(i + 1))
-            empl_task = get(empl_tasks + "?userId={}".format(i + 1)")
-            name = empl.get('username').json()[0]
+            empl = requests.get(empl_get + "{}".format(r + 1)).json()
+            empl_task = requests.get(empl_tasks + "?userId={}".format(r + 1))
+            name = empl.get('username')
             list_t = []
-            for t in empl_tasks.json():
+            for t in empl_task.json():
                 empl_json = {}
                 empl_json["task"] = t.get('title')
                 empl_json["completed"] = t.get('completed')
                 empl_json["username"] = name
                 list_t.append(empl_json)
-            data[i + 1] = list_t
+            data[r + 1] = list_t
         json.dump(data, f)
