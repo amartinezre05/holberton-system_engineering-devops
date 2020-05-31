@@ -23,7 +23,7 @@ Lapse of time [Colombia time zone (GMT-5)]
 ## Root Cause
 
 When the search for the keys in the credentials file encounter that keys inside the file were different from the keys on the google console. The origin of the problem was because differents devs overwrote the file and make inconsistencies after the last merge.
-![unauthorized]
+![unauthorized](https://github.com/amartinezre05/holberton-system_engineering-devops/blob/master/0x18-webstack_monitoring/Screenshot%20from%202020-05-31%2013-49-28.png)
 
 ## Corrective and preventative measures
 
